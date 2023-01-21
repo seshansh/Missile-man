@@ -1,0 +1,106 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+.screen{
+    background-color:rgb(179, 208, 228);
+    border: solid;
+    border-width: 10px;
+    border-color: rgb(11, 11, 66);
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.upper{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-right: 200px;
+}
+.image{
+    margin-left: 50px;
+}
+.image img{
+    border-radius: 50%;
+    border: 2px;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 80px;
+}   
+
+
+.upper h1{
+    text-transform: uppercase;
+}
+.image img:hover{
+    transition: 500ms ease-in-out;
+    box-shadow: 0px 0px 10px 5px rgb(0, 0, 0, 0.5);
+    /* overflow: hidden; */
+    transform: scale(1.03);
+    /* border-radius: 1rem; */
+    /* inset: 1rem; */
+}
+
+.upper h4{
+    text-align: end;
+    margin-right: 345px;
+}
+
+.middle h2{
+    margin-top: 30px;
+    font-size: 45px;
+   font-weight: 500;
+   margin-bottom: 30px;
+}
+
+.middle{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.middle p{
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+}
+.quote{
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+}
+
+.awards{
+   padding: 20px 0;
+}
+
+.table{
+    border-collapse: collapse;
+    
+}
+
+.table th ,td{
+    border: 2px solid;
+    padding: 8px;
+}
+
+.video span{
+    font-size: larger;
+    font-weight: 300;
+}
+
+.video{
+    margin-top: 50px;
+    /* padding: 0px */
+}
+
+.video iframe{
+    margin-top: 20px;
+}
+
+.tribute{
+    color: rgb(48, 48, 214);
+    margin: 80px 200px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+}
